@@ -206,6 +206,11 @@ const filter1 = {
   price: 600,
 };
 
+const filteredPhones = mobilePhones.filter((phone) => {
+  return phone.price <= filter1.price;
+});
+console.log(filteredPhones);
+
 // 2. uzdevums. Atrast un izvadīt visus telefonus ar ekrānu mazāku vai vienādu ar 6.5 inch + ar nfc = false
 const filter2 = {
   screenSize: 6.5,
