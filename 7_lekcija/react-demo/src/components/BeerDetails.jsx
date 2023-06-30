@@ -1,5 +1,5 @@
 const BeerDetails = ({ beer }) => (
-  <div className="bg-white shadow-lg rounded-lg px-8 pt-6 pb-8 mb-4 flex flex-col my-4 mx-auto max-w-2xl text-gray-900">
+  <div className="bg-white shadow-lg rounded-lg px-8 pt-6 pb-8 mb-4 flex flex-col my-4 mx-auto max-w-md h-[600px] overflow-y-auto text-gray-900">
     <div className="flex mb-4">
       <div className="w-1/2 mr-4">
         <img
