@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Card from "../component/Card";
+import Card from "../components/Card";
 
 function Homepage() {
   const [people, setPeople] = useState([
